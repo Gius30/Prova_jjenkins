@@ -8,8 +8,8 @@
 	<name>Prova_jenkins</name>
 	<packaging>war</packaging>
 	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
 	</properties>
 
 	<dependencies>
@@ -28,9 +28,7 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
-				<configuration>
-					<release>1.8</release>
-				</configuration>
+				
 			</plugin>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
